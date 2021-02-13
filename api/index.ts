@@ -10,9 +10,9 @@ const backends = {
 }
 
 export default (req: NowRequest, res: NowResponse) => {
-  const { backend } = req.query
+  const backend = req.query.backend as string
   
-  if(req.query.backend){
+  if(!backend){
     return res.status(400).json({error: 'No backend specified'})
   }
 
