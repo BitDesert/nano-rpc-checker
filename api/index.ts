@@ -4,7 +4,6 @@ import axios from 'axios';
 const backends = {
   "ninja": "https://mynano.ninja/api/node",
   "nanos": "https://nault.nanos.cc/proxy",
-  "voxpopuli": "https://vox.nanos.cc/api",
   "powernode": "https://proxy.powernode.cc/proxy",
   "rainstorm": "https://rainstorm.city/api"
 }
