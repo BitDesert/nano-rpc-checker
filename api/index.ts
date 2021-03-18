@@ -3,10 +3,12 @@ import axios from 'axios';
 
 const backends = {
   "ninja": "https://mynano.ninja/api/node",
-  "ninja2": "https://node.mynano.ninja/rpc",
   "nanos": "https://nault.nanos.cc/proxy",
   "powernode": "https://proxy.powernode.cc/proxy",
-  "rainstorm": "https://rainstorm.city/api"
+  "rainstorm": "https://rainstorm.city/api",
+  "nanex": "https://api.nanex.cc",
+  "nanocrawler": "https://vault.nanocrawler.cc/api/node-api",
+  "somenano": "https://node.somenano.com/proxy"
 }
 
 export default (req: NowRequest, res: NowResponse) => {
